@@ -1,0 +1,125 @@
+body{
+  background-color: black
+}
+
+.cool-font {
+  font-family: Shrikhand, cursive;
+  font-size: 24px;
+  color: #1da1f2;
+}
+
+.jumbotron {
+  width: 730px;
+  height: 315px;
+  font-family: Shrikhand, cursive;
+  color: rgba(255, 255, 255, 0.685);
+  background-color: springgreen;
+  font-size: 10px;
+}
+
+input,
+textarea {
+  margin: 20px;
+}
+
+.btn {
+  margin: 10px;
+  font-family: Shrikhand, cursive;
+  color: black;
+  background-color: white;
+  border-color: aqua;
+  border-style: solid;
+  border-width: 2px;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.infoTag{
+
+height: 0px;
+font-size: 10px;
+
+}
+
+.image{
+height : 100px;
+width : 100px;
+
+
+}
+
+.card-columns{
+background: url("bf.jpg");
+width: 100%;
+margin-left: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
+height: 549px;
+
+}
+
+.cdbg{
+  background-color: slategrey;
+}
+
+
+
+
+.chirp {
+  padding: 10px;
+  margin: 10px;
+  background-color: #e8f9ff;
+}
+
+.cool-font {
+  font-family: Shrikhand, cursive;
+  font-size: 24px;
+  color: #1da1f2;
+}
+
+.jumbotron {
+  font-family: Shrikhand, cursive;
+  color: white;
+  background-color: cadetblue;
+}
+
+input,
+textarea {
+  margin: 20px;
+}
+
+.btn {
+  margin: 10px;
+  font-family: Shrikhand, cursive;
+  color: coral;
+  background-color: black;
+  border-color: #1da1f2;
+  border-style: solid;
+  border-width: 2px;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+}
+
+
+.card-header{
+
+  background-color: lavender;
+  font-style: italic;
+}
+
+.card-body{
+
+  background-color: darkgray;
+}
+
+.extrajumbo{
+
+  height: 100px;
+  background-color: black;
+}
