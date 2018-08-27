@@ -6,7 +6,7 @@
 $.get("/api", function(data) {
 
   // for each character that our server sends us back
-  for (var i = 0; i < data.length; i++) {
+  for (var i = 1; i < data.length; i++) {
     // // create a parent div for the oncoming elements
     // var wellSection = $("<div>");
     // // add a class to this div: 'well'
@@ -59,12 +59,12 @@ $.get("/api", function(data) {
      '</div>' +
      '<div class="card">' +
        '<div class="card-body">' +           
-         '<p class="card-text">links links</p>' +             
+       '<p class="card-text"><a href="' + data[i].LINK + '">Tournament Page</a></p>' +             
        '</div>' +
      '</div>' +
      '<div class="card p-3 cdbg">' +
          '<blockquote class="blockquote mb-0 card-body">' +
-           '<p>video if available video if available</p>' +                  
+           '<p><iframe width="300" height="360" src="https://www.youtube.com/embed/P-kQWJrjRV4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>' +                  
          '</blockquote>' +
        '</div>' +          
        '<div class="card p-3 cdbg">' +
@@ -83,12 +83,12 @@ $.get("/api", function(data) {
 
 
 
-   
+     
     
     
 
 
-   $("#chirp-area").append(row);
+   $("#well-section").append(row);
 
 
 

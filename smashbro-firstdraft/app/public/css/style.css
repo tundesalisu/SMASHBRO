@@ -52,9 +52,9 @@ width : 100px;
 }
 
 .card-columns{
-background: url("bf.jpg");
-width: 100%;
-margin-left: 20px;
+background: url("bf5.jpg");
+width: 1010px;
+margin-left: -20px;
 margin-top: 10px;
 margin-bottom: 10px;
 height: 549px;
@@ -83,6 +83,7 @@ height: 549px;
 .jumbotron {
   font-family: Shrikhand, cursive;
   color: white;
+  background: url("bf1.jpg");
   background-color: cadetblue;
 }
 
@@ -109,17 +110,72 @@ p {
 
 .card-header{
 
-  background-color: lavender;
+  background : url("bf2.jpg");
   font-style: italic;
 }
 
 .card-body{
 
-  background-color: darkgray;
+  background : url("bfg4.jpg");
 }
 
 .extrajumbo{
 
   height: 100px;
   background-color: black;
+}
+
+#chirp-area{
+
+  width: 889px;
+  margin-right: 2px;
+  margin-left: -106px;
+  margin-top: -10px;
+  height: 500px;
+
+}
+
+
+.viewrow{
+
+  width: 1040px;
+  margin-right: 2px;
+  margin-left: -106px;
+  margin-top: -10px;
+  height: 500px;
+}
+
+.searchrow{
+
+  width: 770px;
+}
+
+
+.cdbg{
+
+  color: aliceblue;
+  background-color: initial;
+}
+
+iframe{
+
+  width: 350px;
+    height: 217px;
+    margin-left: -68px;
+}
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+
+  color: CORNFLOWERBLUE;
+}
+
+.btn {
+  margin: 10px;
+  font-family: Shrikhand, cursive;
+  color: CORNFLOWERBLUE;
+  background-color: black;
+  border-color: #1da1f2;
+  border-style: solid;
+  border-width: 2px;
 }
